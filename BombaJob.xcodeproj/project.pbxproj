@@ -18,12 +18,6 @@
 		8AA9FCD6176F1575001F3849 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */; };
 		8AA9FCD9176F1575001F3849 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD7176F1575001F3849 /* MainStoryboard_iPhone.storyboard */; };
 		8AA9FCDC176F1575001F3849 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCDA176F1575001F3849 /* MainStoryboard_iPad.storyboard */; };
-		8AA9FCDF176F1575001F3849 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCDE176F1575001F3849 /* FirstViewController.m */; };
-		8AA9FCE1176F1575001F3849 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE0176F1575001F3849 /* first.png */; };
-		8AA9FCE3176F1575001F3849 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE2176F1575001F3849 /* first@2x.png */; };
-		8AA9FCE6176F1575001F3849 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE5176F1575001F3849 /* SecondViewController.m */; };
-		8AA9FCE8176F1575001F3849 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE7176F1575001F3849 /* second.png */; };
-		8AA9FCEA176F1575001F3849 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE9176F1575001F3849 /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,14 +36,6 @@
 		8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8AA9FCD8176F1575001F3849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8AA9FCDB176F1575001F3849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8AA9FCDD176F1575001F3849 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8AA9FCDE176F1575001F3849 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8AA9FCE0176F1575001F3849 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		8AA9FCE2176F1575001F3849 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8AA9FCE4176F1575001F3849 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8AA9FCE5176F1575001F3849 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8AA9FCE7176F1575001F3849 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		8AA9FCE9176F1575001F3849 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +82,13 @@
 		8AA9FCC5176F1575001F3849 /* BombaJob */ = {
 			isa = PBXGroup;
 			children = (
+				8AA9FCF2176F15D3001F3849 /* Utilities */,
+				8AA9FCF1176F15CC001F3849 /* Views */,
+				8AA9FCF0176F15C4001F3849 /* Assets */,
 				8AA9FCCE176F1575001F3849 /* AppDelegate.h */,
 				8AA9FCCF176F1575001F3849 /* AppDelegate.m */,
 				8AA9FCD7176F1575001F3849 /* MainStoryboard_iPhone.storyboard */,
 				8AA9FCDA176F1575001F3849 /* MainStoryboard_iPad.storyboard */,
-				8AA9FCDD176F1575001F3849 /* FirstViewController.h */,
-				8AA9FCDE176F1575001F3849 /* FirstViewController.m */,
-				8AA9FCE0176F1575001F3849 /* first.png */,
-				8AA9FCE2176F1575001F3849 /* first@2x.png */,
-				8AA9FCE4176F1575001F3849 /* SecondViewController.h */,
-				8AA9FCE5176F1575001F3849 /* SecondViewController.m */,
-				8AA9FCE7176F1575001F3849 /* second.png */,
-				8AA9FCE9176F1575001F3849 /* second@2x.png */,
 				8AA9FCC6176F1575001F3849 /* Supporting Files */,
 			);
 			path = BombaJob;
@@ -125,6 +106,27 @@
 				8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AA9FCF0176F15C4001F3849 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		8AA9FCF1176F15CC001F3849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8AA9FCF2176F15D3001F3849 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +186,6 @@
 				8AA9FCD6176F1575001F3849 /* Default-568h@2x.png in Resources */,
 				8AA9FCD9176F1575001F3849 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8AA9FCDC176F1575001F3849 /* MainStoryboard_iPad.storyboard in Resources */,
-				8AA9FCE1176F1575001F3849 /* first.png in Resources */,
-				8AA9FCE3176F1575001F3849 /* first@2x.png in Resources */,
-				8AA9FCE8176F1575001F3849 /* second.png in Resources */,
-				8AA9FCEA176F1575001F3849 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +198,6 @@
 			files = (
 				8AA9FCCC176F1575001F3849 /* main.m in Sources */,
 				8AA9FCD0176F1575001F3849 /* AppDelegate.m in Sources */,
-				8AA9FCDF176F1575001F3849 /* FirstViewController.m in Sources */,
-				8AA9FCE6176F1575001F3849 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -310,6 +307,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
