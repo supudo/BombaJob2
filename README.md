@@ -1,4 +1,3 @@
-BombaJob2
-=========
+# BombaJob.bg
 
-BombaJob.bg official iPhone app
+Official iOS application for BombaJob.bg
