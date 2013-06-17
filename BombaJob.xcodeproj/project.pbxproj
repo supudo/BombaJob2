@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A047BE9176F26B6008B2447 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BE8176F26B6008B2447 /* Default~ipad.png */; };
+		8A047BED176F2BED008B2447 /* Default-Portrait~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BEC176F2BED008B2447 /* Default-Portrait~iPad.png */; };
+		8A047BF1176F2C35008B2447 /* Default-Portrait@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF0176F2C35008B2447 /* Default-Portrait@2x~iPad.png */; };
+		8A047BF5176F2CC2008B2447 /* Default-Landscape~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF4176F2CC2008B2447 /* Default-Landscape~iPad.png */; };
+		8A047BF7176F2CFD008B2447 /* Default-Landscape@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF6176F2CFD008B2447 /* Default-Landscape@2x~iPad.png */; };
 		8AA9FCC0176F1575001F3849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCBF176F1575001F3849 /* UIKit.framework */; };
 		8AA9FCC2176F1575001F3849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC1176F1575001F3849 /* Foundation.framework */; };
 		8AA9FCC4176F1575001F3849 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC3176F1575001F3849 /* CoreGraphics.framework */; };
@@ -30,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A047BE8176F26B6008B2447 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		8A047BEC176F2BED008B2447 /* Default-Portrait~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~iPad.png"; sourceTree = "<group>"; };
+		8A047BF0176F2C35008B2447 /* Default-Portrait@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~iPad.png"; sourceTree = "<group>"; };
+		8A047BF4176F2CC2008B2447 /* Default-Landscape~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~iPad.png"; sourceTree = "<group>"; };
+		8A047BF6176F2CFD008B2447 /* Default-Landscape@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~iPad.png"; sourceTree = "<group>"; };
 		8AA9FCBC176F1575001F3849 /* BombaJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombaJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA9FCBF176F1575001F3849 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AA9FCC1176F1575001F3849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +83,14 @@
 		8A047BDF176F24FF008B2447 /* Launch Images */ = {
 			isa = PBXGroup;
 			children = (
+				8AA9FCD1176F1575001F3849 /* Default.png */,
+				8AA9FCD3176F1575001F3849 /* Default@2x.png */,
+				8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */,
+				8A047BE8176F26B6008B2447 /* Default~ipad.png */,
+				8A047BEC176F2BED008B2447 /* Default-Portrait~iPad.png */,
+				8A047BF0176F2C35008B2447 /* Default-Portrait@2x~iPad.png */,
+				8A047BF4176F2CC2008B2447 /* Default-Landscape~iPad.png */,
+				8A047BF6176F2CFD008B2447 /* Default-Landscape@2x~iPad.png */,
 			);
 			name = "Launch Images";
 			sourceTree = "<group>";
@@ -126,9 +144,6 @@
 				8AA9FCC8176F1575001F3849 /* InfoPlist.strings */,
 				8AA9FCCB176F1575001F3849 /* main.m */,
 				8AA9FCCD176F1575001F3849 /* BombaJob-Prefix.pch */,
-				8AA9FCD1176F1575001F3849 /* Default.png */,
-				8AA9FCD3176F1575001F3849 /* Default@2x.png */,
-				8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,6 +277,11 @@
 				8AA9FD07176F18F3001F3849 /* iTunesArtwork.png in Resources */,
 				8AA9FD09176F1A8D001F3849 /* Icon-72@2x.png in Resources */,
 				8AA9FD0B176F1ABD001F3849 /* Icon-Small-50@2x.png in Resources */,
+				8A047BE9176F26B6008B2447 /* Default~ipad.png in Resources */,
+				8A047BED176F2BED008B2447 /* Default-Portrait~iPad.png in Resources */,
+				8A047BF1176F2C35008B2447 /* Default-Portrait@2x~iPad.png in Resources */,
+				8A047BF5176F2CC2008B2447 /* Default-Landscape~iPad.png in Resources */,
+				8A047BF7176F2CFD008B2447 /* Default-Landscape@2x~iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -383,7 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
