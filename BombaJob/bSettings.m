@@ -2,8 +2,8 @@
 //  bSettings.m
 //  BombaJob
 //
-//  Created by supudo on 7/4/11.
-//  Copyright 2011 BombaJob.bg. All rights reserved.
+//  Created by Sergey Petrov on 6/17/13.
+//  Copyright (c) 2013 BombaJob.bg. All rights reserved.
 //
 
 #import "bSettings.h"
@@ -11,7 +11,7 @@
 
 @implementation bSettings
 
-@synthesize inDebugMode, ServicesURL;
+@synthesize inDebugMode, shouldRotate, ServicesURL;
 
 SYNTHESIZE_SINGLETON_FOR_CLASS(bSettings);
 
@@ -38,11 +38,12 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(bSettings);
 - (id) init {
 	if (self = [super init]) {
 #if TARGET_IPHONE_SIMULATOR
-		self.inDebugMode = [[[NSBundle mainBundle] objectForInfoDictionaryKey:@"BMInDebugMode"] boolValue];
+		self.inDebugMode = YES;
 #else
 		self.inDebugMode = FALSE;
 #endif
-        self.ServicesURL = @"";
+        self.shouldRotate = YES;
+        self.ServicesURL = @"http://www.bombajob.bg/_mob_service.php";
 	}
 	return self;
 }

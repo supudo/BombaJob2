@@ -2,19 +2,19 @@
 //  bSettings.h
 //  BombaJob
 //
-//  Created by supudo on 7/4/11.
-//  Copyright 2011 BombaJob.bg. All rights reserved.
+//  Created by Sergey Petrov on 6/17/13.
+//  Copyright (c) 2013 BombaJob.bg. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "SynthesizeSingleton.h"
 
 @interface bSettings : NSObject {
-	BOOL inDebugMode;
+	BOOL inDebugMode, shouldRotate;
 	NSString *ServicesURL;
 }
 
-@property BOOL inDebugMode;
+@property BOOL inDebugMode, shouldRotate;
 @property (nonatomic, retain) NSString *ServicesURL;
 
 - (void)LogThis:(NSString *)log, ...;

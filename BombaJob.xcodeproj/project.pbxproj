@@ -12,17 +12,45 @@
 		8A047BF1176F2C35008B2447 /* Default-Portrait@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF0176F2C35008B2447 /* Default-Portrait@2x~iPad.png */; };
 		8A047BF5176F2CC2008B2447 /* Default-Landscape~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF4176F2CC2008B2447 /* Default-Landscape~iPad.png */; };
 		8A047BF7176F2CFD008B2447 /* Default-Landscape@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A047BF6176F2CFD008B2447 /* Default-Landscape@2x~iPad.png */; };
-		8A047BFC176F2D72008B2447 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047BF8176F2D72008B2447 /* Accounts.framework */; };
+		8A047BFC176F2D72008B2447 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047BF8176F2D72008B2447 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		8A047BFD176F2D72008B2447 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047BF9176F2D72008B2447 /* CoreData.framework */; };
 		8A047BFF176F2D72008B2447 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047BFB176F2D72008B2447 /* iAd.framework */; };
-		8A047C02176F2D8A008B2447 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047C00176F2D8A008B2447 /* MessageUI.framework */; };
-		8A047C03176F2D8A008B2447 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047C01176F2D8A008B2447 /* Twitter.framework */; };
+		8A047C02176F2D8A008B2447 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047C00176F2D8A008B2447 /* MessageUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8A047C03176F2D8A008B2447 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047C01176F2D8A008B2447 /* Twitter.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		8A047C07176F2E6D008B2447 /* bSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A047C06176F2E6D008B2447 /* bSettings.m */; };
 		8A047C0B176F2EBE008B2447 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A047C0A176F2EBE008B2447 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8A047C0F176F2F53008B2447 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A047C0E176F2F53008B2447 /* SystemConfiguration.framework */; };
 		8A047C12176F300A008B2447 /* Synchronization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A047C11176F300A008B2447 /* Synchronization.m */; };
 		8A65CA23176F33B700F4F10E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA1F176F33B700F4F10E /* MainStoryboard_iPad.storyboard */; };
 		8A65CA24176F33B700F4F10E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA21176F33B700F4F10E /* MainStoryboard_iPhone.storyboard */; };
+		8A65CA27176F35C200F4F10E /* NewestOffers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA26176F35C200F4F10E /* NewestOffers.m */; };
+		8A65CA2A176F35D500F4F10E /* OffersPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA29176F35D500F4F10E /* OffersPeople.m */; };
+		8A65CA2D176F35E300F4F10E /* OffersCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA2C176F35E300F4F10E /* OffersCompanies.m */; };
+		8A65CA30176F35EE00F4F10E /* OfferDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA2F176F35EE00F4F10E /* OfferDetails.m */; };
+		8A65CA33176F35F800F4F10E /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA32176F35F800F4F10E /* Search.m */; };
+		8A65CA37176F360700F4F10E /* SearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA36176F360700F4F10E /* SearchResults.m */; };
+		8A65CA3A176F361100F4F10E /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA39176F361100F4F10E /* Post.m */; };
+		8A65CA40176F375F00F4F10E /* BombaJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA3E176F375F00F4F10E /* BombaJob.xcdatamodeld */; };
+		8A65CA45176F377700F4F10E /* DBManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA44176F377700F4F10E /* DBManagedObjectContext.m */; };
+		8A65CA54176F406300F4F10E /* dbCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA53176F406300F4F10E /* dbCategory.m */; };
+		8A65CA57176F406300F4F10E /* dbTextContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA56176F406300F4F10E /* dbTextContent.m */; };
+		8A65CA5A176F406300F4F10E /* dbSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA59176F406300F4F10E /* dbSettings.m */; };
+		8A65CA5D176F406400F4F10E /* dbJobOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA5C176F406400F4F10E /* dbJobOffer.m */; };
+		8A65CA61176F408400F4F10E /* BlackAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA60176F408400F4F10E /* BlackAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A65CA64176F40AD00F4F10E /* URLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA63176F40AD00F4F10E /* URLReader.m */; };
+		8A65CA6A176F410700F4F10E /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA67176F410700F4F10E /* WebService.m */; };
+		8A65CA6B176F410700F4F10E /* Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CA69176F410700F4F10E /* Sync.m */; };
+		8A65CA76176F431400F4F10E /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA6D176F431400F4F10E /* Ubuntu-Bold.ttf */; };
+		8A65CA77176F431400F4F10E /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA6E176F431400F4F10E /* Ubuntu-BoldItalic.ttf */; };
+		8A65CA78176F431400F4F10E /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA6F176F431400F4F10E /* Ubuntu-Italic.ttf */; };
+		8A65CA79176F431400F4F10E /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA70176F431400F4F10E /* Ubuntu-Light.ttf */; };
+		8A65CA7A176F431400F4F10E /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA71176F431400F4F10E /* Ubuntu-LightItalic.ttf */; };
+		8A65CA7B176F431400F4F10E /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA72176F431400F4F10E /* Ubuntu-Medium.ttf */; };
+		8A65CA7C176F431400F4F10E /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA73176F431400F4F10E /* Ubuntu-MediumItalic.ttf */; };
+		8A65CA7D176F431400F4F10E /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA74176F431400F4F10E /* Ubuntu-Regular.ttf */; };
+		8A65CA7E176F431400F4F10E /* UFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA75176F431400F4F10E /* UFL.txt */; };
+		8A65CA80176F441000F4F10E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA7F176F441000F4F10E /* Localizable.strings */; };
+		8A65CA83176F444C00F4F10E /* bg-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CA82176F444C00F4F10E /* bg-pattern.png */; };
 		8AA9FCC0176F1575001F3849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCBF176F1575001F3849 /* UIKit.framework */; };
 		8AA9FCC2176F1575001F3849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC1176F1575001F3849 /* Foundation.framework */; };
 		8AA9FCC4176F1575001F3849 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC3176F1575001F3849 /* CoreGraphics.framework */; };
@@ -65,6 +93,50 @@
 		8A047C11176F300A008B2447 /* Synchronization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Synchronization.m; sourceTree = "<group>"; };
 		8A65CA20176F33B700F4F10E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		8A65CA22176F33B700F4F10E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8A65CA25176F35C200F4F10E /* NewestOffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewestOffers.h; sourceTree = "<group>"; };
+		8A65CA26176F35C200F4F10E /* NewestOffers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewestOffers.m; sourceTree = "<group>"; };
+		8A65CA28176F35D500F4F10E /* OffersPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersPeople.h; sourceTree = "<group>"; };
+		8A65CA29176F35D500F4F10E /* OffersPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersPeople.m; sourceTree = "<group>"; };
+		8A65CA2B176F35E300F4F10E /* OffersCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersCompanies.h; sourceTree = "<group>"; };
+		8A65CA2C176F35E300F4F10E /* OffersCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersCompanies.m; sourceTree = "<group>"; };
+		8A65CA2E176F35EE00F4F10E /* OfferDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferDetails.h; sourceTree = "<group>"; };
+		8A65CA2F176F35EE00F4F10E /* OfferDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferDetails.m; sourceTree = "<group>"; };
+		8A65CA31176F35F700F4F10E /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		8A65CA32176F35F800F4F10E /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		8A65CA35176F360700F4F10E /* SearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResults.h; sourceTree = "<group>"; };
+		8A65CA36176F360700F4F10E /* SearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResults.m; sourceTree = "<group>"; };
+		8A65CA38176F361000F4F10E /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		8A65CA39176F361100F4F10E /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		8A65CA3F176F375F00F4F10E /* BombaJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BombaJob.xcdatamodel; sourceTree = "<group>"; };
+		8A65CA43176F377700F4F10E /* DBManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagedObjectContext.h; sourceTree = "<group>"; };
+		8A65CA44176F377700F4F10E /* DBManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagedObjectContext.m; sourceTree = "<group>"; };
+		8A65CA52176F406300F4F10E /* dbCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbCategory.h; sourceTree = "<group>"; };
+		8A65CA53176F406300F4F10E /* dbCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbCategory.m; sourceTree = "<group>"; };
+		8A65CA55176F406300F4F10E /* dbTextContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbTextContent.h; sourceTree = "<group>"; };
+		8A65CA56176F406300F4F10E /* dbTextContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbTextContent.m; sourceTree = "<group>"; };
+		8A65CA58176F406300F4F10E /* dbSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbSettings.h; sourceTree = "<group>"; };
+		8A65CA59176F406300F4F10E /* dbSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbSettings.m; sourceTree = "<group>"; };
+		8A65CA5B176F406400F4F10E /* dbJobOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbJobOffer.h; sourceTree = "<group>"; };
+		8A65CA5C176F406400F4F10E /* dbJobOffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbJobOffer.m; sourceTree = "<group>"; };
+		8A65CA5F176F408400F4F10E /* BlackAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackAlertView.h; sourceTree = "<group>"; };
+		8A65CA60176F408400F4F10E /* BlackAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackAlertView.m; sourceTree = "<group>"; };
+		8A65CA62176F40AD00F4F10E /* URLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLReader.h; sourceTree = "<group>"; };
+		8A65CA63176F40AD00F4F10E /* URLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLReader.m; sourceTree = "<group>"; };
+		8A65CA66176F410700F4F10E /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		8A65CA67176F410700F4F10E /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		8A65CA68176F410700F4F10E /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
+		8A65CA69176F410700F4F10E /* Sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sync.m; sourceTree = "<group>"; };
+		8A65CA6D176F431400F4F10E /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		8A65CA6E176F431400F4F10E /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8A65CA6F176F431400F4F10E /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		8A65CA70176F431400F4F10E /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		8A65CA71176F431400F4F10E /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		8A65CA72176F431400F4F10E /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		8A65CA73176F431400F4F10E /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8A65CA74176F431400F4F10E /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		8A65CA75176F431400F4F10E /* UFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UFL.txt; sourceTree = "<group>"; };
+		8A65CA7F176F441000F4F10E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8A65CA82176F444C00F4F10E /* bg-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-pattern.png"; sourceTree = "<group>"; };
 		8AA9FCBC176F1575001F3849 /* BombaJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombaJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA9FCBF176F1575001F3849 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AA9FCC1176F1575001F3849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -127,10 +199,81 @@
 		8A047C08176F2EB6008B2447 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA62176F40AD00F4F10E /* URLReader.h */,
+				8A65CA63176F40AD00F4F10E /* URLReader.m */,
 				8A047C09176F2EBE008B2447 /* Reachability.h */,
 				8A047C0A176F2EBE008B2447 /* Reachability.m */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		8A65CA41176F376800F4F10E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA42176F376D00F4F10E /* Entities */,
+				8A65CA43176F377700F4F10E /* DBManagedObjectContext.h */,
+				8A65CA44176F377700F4F10E /* DBManagedObjectContext.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		8A65CA42176F376D00F4F10E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA52176F406300F4F10E /* dbCategory.h */,
+				8A65CA53176F406300F4F10E /* dbCategory.m */,
+				8A65CA5B176F406400F4F10E /* dbJobOffer.h */,
+				8A65CA5C176F406400F4F10E /* dbJobOffer.m */,
+				8A65CA55176F406300F4F10E /* dbTextContent.h */,
+				8A65CA56176F406300F4F10E /* dbTextContent.m */,
+				8A65CA58176F406300F4F10E /* dbSettings.h */,
+				8A65CA59176F406300F4F10E /* dbSettings.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		8A65CA5E176F407C00F4F10E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA5F176F408400F4F10E /* BlackAlertView.h */,
+				8A65CA60176F408400F4F10E /* BlackAlertView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8A65CA65176F40FC00F4F10E /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA66176F410700F4F10E /* WebService.h */,
+				8A65CA67176F410700F4F10E /* WebService.m */,
+				8A65CA68176F410700F4F10E /* Sync.h */,
+				8A65CA69176F410700F4F10E /* Sync.m */,
+			);
+			name = Webservices;
+			sourceTree = "<group>";
+		};
+		8A65CA6C176F430900F4F10E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA6D176F431400F4F10E /* Ubuntu-Bold.ttf */,
+				8A65CA6E176F431400F4F10E /* Ubuntu-BoldItalic.ttf */,
+				8A65CA6F176F431400F4F10E /* Ubuntu-Italic.ttf */,
+				8A65CA70176F431400F4F10E /* Ubuntu-Light.ttf */,
+				8A65CA71176F431400F4F10E /* Ubuntu-LightItalic.ttf */,
+				8A65CA72176F431400F4F10E /* Ubuntu-Medium.ttf */,
+				8A65CA73176F431400F4F10E /* Ubuntu-MediumItalic.ttf */,
+				8A65CA74176F431400F4F10E /* Ubuntu-Regular.ttf */,
+				8A65CA75176F431400F4F10E /* UFL.txt */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		8A65CA81176F444600F4F10E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A65CA82176F444C00F4F10E /* bg-pattern.png */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		8AA9FCB3176F1575001F3849 = {
@@ -196,6 +339,7 @@
 		8AA9FCF0176F15C4001F3849 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA6C176F430900F4F10E /* Fonts */,
 				8AA9FCF8176F18DA001F3849 /* Localization */,
 				8AA9FCF7176F18D6001F3849 /* Database */,
 				8AA9FCF6176F18D1001F3849 /* Images */,
@@ -208,6 +352,20 @@
 			children = (
 				8A047C10176F300A008B2447 /* Synchronization.h */,
 				8A047C11176F300A008B2447 /* Synchronization.m */,
+				8A65CA25176F35C200F4F10E /* NewestOffers.h */,
+				8A65CA26176F35C200F4F10E /* NewestOffers.m */,
+				8A65CA28176F35D500F4F10E /* OffersPeople.h */,
+				8A65CA29176F35D500F4F10E /* OffersPeople.m */,
+				8A65CA2B176F35E300F4F10E /* OffersCompanies.h */,
+				8A65CA2C176F35E300F4F10E /* OffersCompanies.m */,
+				8A65CA2E176F35EE00F4F10E /* OfferDetails.h */,
+				8A65CA2F176F35EE00F4F10E /* OfferDetails.m */,
+				8A65CA31176F35F700F4F10E /* Search.h */,
+				8A65CA32176F35F800F4F10E /* Search.m */,
+				8A65CA35176F360700F4F10E /* SearchResults.h */,
+				8A65CA36176F360700F4F10E /* SearchResults.m */,
+				8A65CA38176F361000F4F10E /* Post.h */,
+				8A65CA39176F361100F4F10E /* Post.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -215,7 +373,10 @@
 		8AA9FCF2176F15D3001F3849 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA5E176F407C00F4F10E /* UI */,
+				8A65CA41176F376800F4F10E /* Database */,
 				8A047C08176F2EB6008B2447 /* Network */,
+				8A65CA65176F40FC00F4F10E /* Webservices */,
 				8A047C05176F2E6D008B2447 /* bSettings.h */,
 				8A047C06176F2E6D008B2447 /* bSettings.m */,
 				8A047C04176F2E2E008B2447 /* SynthesizeSingleton.h */,
@@ -226,6 +387,7 @@
 		8AA9FCF6176F18D1001F3849 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA81176F444600F4F10E /* UI */,
 				8A047BDF176F24FF008B2447 /* Launch Images */,
 				8AA9FCF9176F18E8001F3849 /* Icons */,
 			);
@@ -235,6 +397,7 @@
 		8AA9FCF7176F18D6001F3849 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA3E176F375F00F4F10E /* BombaJob.xcdatamodeld */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -242,6 +405,7 @@
 		8AA9FCF8176F18DA001F3849 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				8A65CA7F176F441000F4F10E /* Localizable.strings */,
 			);
 			name = Localization;
 			sourceTree = "<group>";
@@ -289,7 +453,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Sergey Petrov";
+				ORGANIZATIONNAME = BombaJob.bg;
 			};
 			buildConfigurationList = 8AA9FCB7176F1575001F3849 /* Build configuration list for PBXProject "BombaJob" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -333,6 +497,17 @@
 				8A047BF7176F2CFD008B2447 /* Default-Landscape@2x~iPad.png in Resources */,
 				8A65CA23176F33B700F4F10E /* MainStoryboard_iPad.storyboard in Resources */,
 				8A65CA24176F33B700F4F10E /* MainStoryboard_iPhone.storyboard in Resources */,
+				8A65CA76176F431400F4F10E /* Ubuntu-Bold.ttf in Resources */,
+				8A65CA77176F431400F4F10E /* Ubuntu-BoldItalic.ttf in Resources */,
+				8A65CA78176F431400F4F10E /* Ubuntu-Italic.ttf in Resources */,
+				8A65CA79176F431400F4F10E /* Ubuntu-Light.ttf in Resources */,
+				8A65CA7A176F431400F4F10E /* Ubuntu-LightItalic.ttf in Resources */,
+				8A65CA7B176F431400F4F10E /* Ubuntu-Medium.ttf in Resources */,
+				8A65CA7C176F431400F4F10E /* Ubuntu-MediumItalic.ttf in Resources */,
+				8A65CA7D176F431400F4F10E /* Ubuntu-Regular.ttf in Resources */,
+				8A65CA7E176F431400F4F10E /* UFL.txt in Resources */,
+				8A65CA80176F441000F4F10E /* Localizable.strings in Resources */,
+				8A65CA83176F444C00F4F10E /* bg-pattern.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +523,23 @@
 				8A047C07176F2E6D008B2447 /* bSettings.m in Sources */,
 				8A047C0B176F2EBE008B2447 /* Reachability.m in Sources */,
 				8A047C12176F300A008B2447 /* Synchronization.m in Sources */,
+				8A65CA27176F35C200F4F10E /* NewestOffers.m in Sources */,
+				8A65CA2A176F35D500F4F10E /* OffersPeople.m in Sources */,
+				8A65CA2D176F35E300F4F10E /* OffersCompanies.m in Sources */,
+				8A65CA30176F35EE00F4F10E /* OfferDetails.m in Sources */,
+				8A65CA33176F35F800F4F10E /* Search.m in Sources */,
+				8A65CA37176F360700F4F10E /* SearchResults.m in Sources */,
+				8A65CA3A176F361100F4F10E /* Post.m in Sources */,
+				8A65CA40176F375F00F4F10E /* BombaJob.xcdatamodeld in Sources */,
+				8A65CA45176F377700F4F10E /* DBManagedObjectContext.m in Sources */,
+				8A65CA54176F406300F4F10E /* dbCategory.m in Sources */,
+				8A65CA57176F406300F4F10E /* dbTextContent.m in Sources */,
+				8A65CA5A176F406300F4F10E /* dbSettings.m in Sources */,
+				8A65CA5D176F406400F4F10E /* dbJobOffer.m in Sources */,
+				8A65CA61176F408400F4F10E /* BlackAlertView.m in Sources */,
+				8A65CA64176F40AD00F4F10E /* URLReader.m in Sources */,
+				8A65CA6A176F410700F4F10E /* WebService.m in Sources */,
+				8A65CA6B176F410700F4F10E /* Sync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +637,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,7 +649,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
 				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -485,6 +677,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A65CA3E176F375F00F4F10E /* BombaJob.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A65CA3F176F375F00F4F10E /* BombaJob.xcdatamodel */,
+			);
+			currentVersion = 8A65CA3F176F375F00F4F10E /* BombaJob.xcdatamodel */;
+			path = BombaJob.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8AA9FCB4176F1575001F3849 /* Project object */;
 }

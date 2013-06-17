@@ -9,6 +9,7 @@
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="I4U-Ga-CGw"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -25,13 +26,30 @@
             <objects>
                 <viewController id="FNU-qu-Fna" customClass="Synchronization" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XwK-kG-OQf">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Зареждане..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-kF-yWF">
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="FWM-p9-Huc"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.55294120309999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KKQ-kF-yWF" firstAttribute="top" secondItem="XwK-kG-OQf" secondAttribute="top" constant="152" id="FZW-WD-MXL"/>
+                            <constraint firstItem="FWM-p9-Huc" firstAttribute="top" secondItem="XwK-kG-OQf" secondAttribute="top" constant="208" id="I8M-VJ-3MB"/>
+                            <constraint firstAttribute="trailing" secondItem="KKQ-kF-yWF" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="eoE-oE-1Su"/>
+                            <constraint firstItem="FWM-p9-Huc" firstAttribute="centerX" secondItem="KKQ-kF-yWF" secondAttribute="centerX" type="default" id="kFX-S0-aqm"/>
+                            <constraint firstItem="KKQ-kF-yWF" firstAttribute="leading" secondItem="XwK-kG-OQf" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="nqe-id-9wT"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="MzX-zl-1GZ"/>
                     <navigationItem key="navigationItem" id="fS0-Pp-IXS"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="lblLoading" destination="KKQ-kF-yWF" id="x6Y-yt-jC7"/>
                         <segue destination="4" kind="push" identifier="switchToTab" id="gF1-7e-dBV"/>
                     </connections>
                 </viewController>
@@ -43,7 +61,9 @@
         <scene sceneID="Fdx-0n-MTb">
             <objects>
                 <navigationController definesPresentationContext="YES" id="l7A-8Y-QB8" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qf1-Yh-W1k">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="Qf1-Yh-W1k">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -56,8 +76,14 @@
         </scene>
     </scenes>
     <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
         <class className="Synchronization" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Synchronization.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblLoading" candidateClass="UILabel"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

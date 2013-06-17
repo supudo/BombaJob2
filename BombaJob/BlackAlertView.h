@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BlackAlertView.h
 //  BombaJob
 //
 //  Created by Sergey Petrov on 6/17/13.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface BlackAlertView : UIAlertView {
+}
 
-@property (strong, nonatomic) UIWindow *window;
++ (void) setBackgroundColor:(UIColor *) background withStrokeColor:(UIColor *) stroke;
 
 @end

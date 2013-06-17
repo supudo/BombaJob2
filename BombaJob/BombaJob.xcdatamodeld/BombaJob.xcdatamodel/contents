@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="dbCategory" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="categoryTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offersCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="offers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="JobOffer" inverseName="category" inverseEntity="JobOffer" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="JobOffer" representedClassName="dbJobOffer" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="categoryTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freelanceYn" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="humanYn" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="negativism" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offerID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="positivism" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publishDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="readYn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sentMessageYn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="offers" inverseEntity="Category" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="dbSettings" syncable="YES">
+        <attribute name="sName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TextContent" representedClassName="dbTextContent" syncable="YES">
+        <attribute name="cid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="JobOffer" positionX="160" positionY="192" width="128" height="240"/>
+        <element name="Settings" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="TextContent" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,115 @@
+/* 
+  Localizable.strings
+  BombaJob
+
+  Created by Sergey Petrov on 6/17/13.
+  Copyright (c) 2013 BombaJob.bg. All rights reserved.
+*/
+
+"MainNavTitle" = "BombaJob";
+
+"NewOffers" = "Нови оферти";
+"NewOffersNew" = "Нови";
+"NewJobsError" = "Грешка!";
+"SyncError" = "Грешка!";
+"SyncError.XMLError" = "Проблем със сайта...";
+"OfferMessageError" = "Грешка!";
+"OfferMessageError.EmptyMessage" = "Съобщението ви е празно.";
+"Search" = "Търсене";
+"PostOffer" = "Нова oферта";
+"Jobs" = "Работа";
+"People" = "Хора";
+"Offer_IShort_Human" = "Ч";
+"Offer_IShort_Company" = "Ф";
+"OfflineMode" = "В момента нямате Интернет връзка, затова ще работим в офлайн режим.";
+"OfflineMode_NoGeoSearch" = "В момента нямате Интернет връзка.";
+"Sync" = "Синхронизация";
+"SyncInProgress" = "Синхронизиране...";
+"OffersCount" = "Оферти";
+"DoFullSync" = "Пълна синхронизация на офертите?";
+
+"Coordinates_Reason" = "За да можем да търсим подходящи оферти около вас ни трябва местоположението ви. Но, не е задъжлитено.";
+
+"Offer_Freelance" = "Проект/Freelance";
+"Offer_Human_Positiv" = "Проблем:";
+"Offer_Human_Negativ" = "Умения:";
+"Offer_Company_Positiv" = "Описание на позицията:";
+"Offer_Company_Negativ" = "Предимства на фирмата:";
+"Offer_Category" = "Категория:";
+"Offer_Category_Choice" = "- Работя в -";
+"Offer_HumanCompany_Choice" = "Аз съм";
+"Offer_HumanCompany_1" = "Човек";
+"Offer_HumanCompany_2" = "Фирма";
+"Offer_Freelance_1" = "Да";
+"Offer_Freelance_2" = "Не";
+"Offer_Title" = "Заглавие:";
+"Offer_Email" = "Вашият email:";
+"Offer_Boom" = "Бум!";
+"Offer_MissingReqFields" = "Има нещо изпуснато";
+"Offer_ThankYou" = "Благодарим ви!";
+"Offer_PlaceHolder_Human_Email" = "Вашият email";
+"Offer_PlaceHolder_Human_Title" = "Заглавие на резюмето ви";
+"Offer_PlaceHolder_Company_Email" = "Email за връзка";
+"Offer_PlaceHolder_Company_Title" = "Заглавие на позицията";
+"Offer_EmailSubject" = "BombaJob.bg - съобщение относно обява #";
+"Offer_EmailSubjectByUser" = "BombaJob.bg - виж тази обява";
+"Offer_EmailSent" = "Офертата е изпратена.";
+"Offer_EmailEnterYourEmail" = "Вашият email";
+"Offer_EmailIncorrectEmail" = "Грешен или некоректен email.\nМоля, въведете коректен email.";
+"Offer_SentEmailTo" = "Изпрати на email...";
+"Offer_SentEmailFrom" = "Вашият email...";
+
+"PostNewJobError_BlackListed" = "Email was blacklisted...";
+"PostNewJobError_OneOfferFromHuman" = "Съжаляваме, Може да публикувате само една \"човешка\" обява от един email адрес. Не ни се вярва да имате 2 таланта.Ако искате да осъвремените вашата обява, намерете админ мейла, който сме пратили при публикуването и и щракнете на линка за изтриване на вашата стара обява, за да я изтриете и след това да публикувате вашата нова.";
+
+"Settings" = "Настройки";
+"About" = "За BombaJob.bg";
+"ExternalURLWarning" = "Това действие ще затвори текущото приложение и ще отвори Safari.\nСигурни ли сте?";
+"About.PrivateData" = "Запази лични данни";
+"About.Geo" = "Изпращай гео-координати";
+"About.Sync" = "Начална синхронизация";
+"About.Search" = "Онлайн търсене";
+"About.InAppEmail" = "In-App Email";
+"About.ShowCategories" = "Показвай категориите";
+
+"Search.Search" = "Търси";
+"Search.SearchGeo" = "Търси в околноста";
+
+"Search.Freelance" = "Проект/Freelance";
+
+"Months_Short_1" = "Яну";
+"Months_Short_2" = "Фев";
+"Months_Short_3" = "Март";
+"Months_Short_4" = "Апр";
+"Months_Short_5" = "Май";
+"Months_Short_6" = "Юни";
+"Months_Short_7" = "Юли";
+"Months_Short_8" = "Авг";
+"Months_Short_9" = "Септ";
+"Months_Short_10" = "Окт";
+"Months_Short_11" = "Ное";
+"Months_Short_12" = "Дек";
+
+"Error.InAppEmailCantSend" = "Нямате конфигуриран email акаунт.";
+
+"Twitter.LoginError" = "Грешно потребителско име и/или парола.";
+"Twitter.PublishOK" = "Чуруликането беше успешно";
+"Twitter.PublishError" = "Възникна проблем при чуруликането.";
+"Facebook.PublishOK" = "Обявата беше публикувана на вашата стена.";
+"Facebook.PublishError" = "Възникна проблем при публикуване на вашата стена.";
+"LinkedIn.Authorization" = "LinkedIn";
+
+"UI.OK" = "ОК";
+"UI.Retry" = "Опитай пак";
+"UI.Cancel" = "Откажи";
+"UI.Close" = "Затвори";
+"UI.YES.CAPS" = "ДА";
+"UI.NO.CAPS" = "НЕ";
+"UI.YES" = "Да";
+"UI.NO" = "Не";
+"UI.InProgress" = "Незавършена функционалност.";
+"UI.Categories" = "Категории";
+"UI.Offers" = "Оферти";
+"UI.RefreshPullDown" = "Надолу, за презареждане...";
+"UI.RefreshRelease" = "Пусни за презареждане...";
+"UI.RefreshLoading" = "Зареждане...";

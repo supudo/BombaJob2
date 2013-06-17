@@ -27,11 +27,30 @@
                     <view key="view" contentMode="scaleToFill" id="cmP-kU-DOe">
                         <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Зареждане..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="QyC-qZ-52d">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="npv-9N-JGo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2Mh-Y8-Xn4"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.55294120309999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QyC-qZ-52d" firstAttribute="leading" secondItem="cmP-kU-DOe" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="O47-om-TGe"/>
+                            <constraint firstItem="QyC-qZ-52d" firstAttribute="top" secondItem="cmP-kU-DOe" secondAttribute="top" constant="293" id="YUT-Nn-g0n"/>
+                            <constraint firstItem="2Mh-Y8-Xn4" firstAttribute="top" secondItem="cmP-kU-DOe" secondAttribute="top" constant="373" id="f8o-8Y-A9Z"/>
+                            <constraint firstAttribute="trailing" secondItem="QyC-qZ-52d" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hGi-oa-v1g"/>
+                            <constraint firstItem="2Mh-Y8-Xn4" firstAttribute="centerX" secondItem="QyC-qZ-52d" secondAttribute="centerX" type="default" id="ySj-kT-FYw"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="rKz-n3-wd3"/>
                     <navigationItem key="navigationItem" id="VO3-Bc-xm1"/>
                     <connections>
+                        <outlet property="lblLoading" destination="QyC-qZ-52d" id="rD3-yp-uQi"/>
                         <segue destination="4" kind="push" identifier="switchToTab" id="buU-Zs-oLQ"/>
                     </connections>
                 </viewController>
@@ -56,8 +75,14 @@
         </scene>
     </scenes>
     <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
         <class className="Synchronization" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Synchronization.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblLoading" candidateClass="UILabel"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

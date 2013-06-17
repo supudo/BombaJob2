@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  OffersPeople.h
 //  BombaJob
 //
 //  Created by Sergey Petrov on 6/17/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface OffersPeople : UIViewController
 
 @end
