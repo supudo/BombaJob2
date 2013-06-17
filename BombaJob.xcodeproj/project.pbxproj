@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AA9FCC0176F1575001F3849 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCBF176F1575001F3849 /* UIKit.framework */; };
+		8AA9FCC2176F1575001F3849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC1176F1575001F3849 /* Foundation.framework */; };
+		8AA9FCC4176F1575001F3849 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9FCC3176F1575001F3849 /* CoreGraphics.framework */; };
+		8AA9FCCA176F1575001F3849 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCC8176F1575001F3849 /* InfoPlist.strings */; };
+		8AA9FCCC176F1575001F3849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCCB176F1575001F3849 /* main.m */; };
+		8AA9FCD0176F1575001F3849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCCF176F1575001F3849 /* AppDelegate.m */; };
+		8AA9FCD2176F1575001F3849 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD1176F1575001F3849 /* Default.png */; };
+		8AA9FCD4176F1575001F3849 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD3176F1575001F3849 /* Default@2x.png */; };
+		8AA9FCD6176F1575001F3849 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */; };
+		8AA9FCD9176F1575001F3849 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCD7176F1575001F3849 /* MainStoryboard_iPhone.storyboard */; };
+		8AA9FCDC176F1575001F3849 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCDA176F1575001F3849 /* MainStoryboard_iPad.storyboard */; };
+		8AA9FCDF176F1575001F3849 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCDE176F1575001F3849 /* FirstViewController.m */; };
+		8AA9FCE1176F1575001F3849 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE0176F1575001F3849 /* first.png */; };
+		8AA9FCE3176F1575001F3849 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE2176F1575001F3849 /* first@2x.png */; };
+		8AA9FCE6176F1575001F3849 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE5176F1575001F3849 /* SecondViewController.m */; };
+		8AA9FCE8176F1575001F3849 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE7176F1575001F3849 /* second.png */; };
+		8AA9FCEA176F1575001F3849 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA9FCE9176F1575001F3849 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AA9FCBC176F1575001F3849 /* BombaJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombaJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA9FCBF176F1575001F3849 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AA9FCC1176F1575001F3849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AA9FCC3176F1575001F3849 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AA9FCC7176F1575001F3849 /* BombaJob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BombaJob-Info.plist"; sourceTree = "<group>"; };
+		8AA9FCC9176F1575001F3849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AA9FCCB176F1575001F3849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AA9FCCD176F1575001F3849 /* BombaJob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BombaJob-Prefix.pch"; sourceTree = "<group>"; };
+		8AA9FCCE176F1575001F3849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AA9FCCF176F1575001F3849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AA9FCD1176F1575001F3849 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AA9FCD3176F1575001F3849 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8AA9FCD8176F1575001F3849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8AA9FCDB176F1575001F3849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8AA9FCDD176F1575001F3849 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8AA9FCDE176F1575001F3849 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8AA9FCE0176F1575001F3849 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8AA9FCE2176F1575001F3849 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8AA9FCE4176F1575001F3849 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8AA9FCE5176F1575001F3849 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8AA9FCE7176F1575001F3849 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8AA9FCE9176F1575001F3849 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AA9FCB9176F1575001F3849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA9FCC0176F1575001F3849 /* UIKit.framework in Frameworks */,
+				8AA9FCC2176F1575001F3849 /* Foundation.framework in Frameworks */,
+				8AA9FCC4176F1575001F3849 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA9FCB3176F1575001F3849 = {
+			isa = PBXGroup;
+			children = (
+				8AA9FCC5176F1575001F3849 /* BombaJob */,
+				8AA9FCBE176F1575001F3849 /* Frameworks */,
+				8AA9FCBD176F1575001F3849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA9FCBD176F1575001F3849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9FCBC176F1575001F3849 /* BombaJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA9FCBE176F1575001F3849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9FCBF176F1575001F3849 /* UIKit.framework */,
+				8AA9FCC1176F1575001F3849 /* Foundation.framework */,
+				8AA9FCC3176F1575001F3849 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA9FCC5176F1575001F3849 /* BombaJob */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9FCCE176F1575001F3849 /* AppDelegate.h */,
+				8AA9FCCF176F1575001F3849 /* AppDelegate.m */,
+				8AA9FCD7176F1575001F3849 /* MainStoryboard_iPhone.storyboard */,
+				8AA9FCDA176F1575001F3849 /* MainStoryboard_iPad.storyboard */,
+				8AA9FCDD176F1575001F3849 /* FirstViewController.h */,
+				8AA9FCDE176F1575001F3849 /* FirstViewController.m */,
+				8AA9FCE0176F1575001F3849 /* first.png */,
+				8AA9FCE2176F1575001F3849 /* first@2x.png */,
+				8AA9FCE4176F1575001F3849 /* SecondViewController.h */,
+				8AA9FCE5176F1575001F3849 /* SecondViewController.m */,
+				8AA9FCE7176F1575001F3849 /* second.png */,
+				8AA9FCE9176F1575001F3849 /* second@2x.png */,
+				8AA9FCC6176F1575001F3849 /* Supporting Files */,
+			);
+			path = BombaJob;
+			sourceTree = "<group>";
+		};
+		8AA9FCC6176F1575001F3849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9FCC7176F1575001F3849 /* BombaJob-Info.plist */,
+				8AA9FCC8176F1575001F3849 /* InfoPlist.strings */,
+				8AA9FCCB176F1575001F3849 /* main.m */,
+				8AA9FCCD176F1575001F3849 /* BombaJob-Prefix.pch */,
+				8AA9FCD1176F1575001F3849 /* Default.png */,
+				8AA9FCD3176F1575001F3849 /* Default@2x.png */,
+				8AA9FCD5176F1575001F3849 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AA9FCBB176F1575001F3849 /* BombaJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA9FCED176F1575001F3849 /* Build configuration list for PBXNativeTarget "BombaJob" */;
+			buildPhases = (
+				8AA9FCB8176F1575001F3849 /* Sources */,
+				8AA9FCB9176F1575001F3849 /* Frameworks */,
+				8AA9FCBA176F1575001F3849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BombaJob;
+			productName = BombaJob;
+			productReference = 8AA9FCBC176F1575001F3849 /* BombaJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AA9FCB4176F1575001F3849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sergey Petrov";
+			};
+			buildConfigurationList = 8AA9FCB7176F1575001F3849 /* Build configuration list for PBXProject "BombaJob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AA9FCB3176F1575001F3849;
+			productRefGroup = 8AA9FCBD176F1575001F3849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA9FCBB176F1575001F3849 /* BombaJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA9FCBA176F1575001F3849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA9FCCA176F1575001F3849 /* InfoPlist.strings in Resources */,
+				8AA9FCD2176F1575001F3849 /* Default.png in Resources */,
+				8AA9FCD4176F1575001F3849 /* Default@2x.png in Resources */,
+				8AA9FCD6176F1575001F3849 /* Default-568h@2x.png in Resources */,
+				8AA9FCD9176F1575001F3849 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8AA9FCDC176F1575001F3849 /* MainStoryboard_iPad.storyboard in Resources */,
+				8AA9FCE1176F1575001F3849 /* first.png in Resources */,
+				8AA9FCE3176F1575001F3849 /* first@2x.png in Resources */,
+				8AA9FCE8176F1575001F3849 /* second.png in Resources */,
+				8AA9FCEA176F1575001F3849 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AA9FCB8176F1575001F3849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA9FCCC176F1575001F3849 /* main.m in Sources */,
+				8AA9FCD0176F1575001F3849 /* AppDelegate.m in Sources */,
+				8AA9FCDF176F1575001F3849 /* FirstViewController.m in Sources */,
+				8AA9FCE6176F1575001F3849 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AA9FCC8176F1575001F3849 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA9FCC9176F1575001F3849 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AA9FCD7176F1575001F3849 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA9FCD8176F1575001F3849 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8AA9FCDA176F1575001F3849 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA9FCDB176F1575001F3849 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AA9FCEB176F1575001F3849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AA9FCEC176F1575001F3849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AA9FCEE176F1575001F3849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
+				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AA9FCEF176F1575001F3849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BombaJob/BombaJob-Prefix.pch";
+				INFOPLIST_FILE = "BombaJob/BombaJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AA9FCB7176F1575001F3849 /* Build configuration list for PBXProject "BombaJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA9FCEB176F1575001F3849 /* Debug */,
+				8AA9FCEC176F1575001F3849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA9FCED176F1575001F3849 /* Build configuration list for PBXNativeTarget "BombaJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA9FCEE176F1575001F3849 /* Debug */,
+				8AA9FCEF176F1575001F3849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AA9FCB4176F1575001F3849 /* Project object */;
+}
