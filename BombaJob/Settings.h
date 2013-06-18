@@ -1,5 +1,5 @@
 //
-//  OffersCompanies.h
+//  Settings.h
 //  BombaJob
 //
 //  Created by Sergey Petrov on 6/17/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OffersCompanies : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface Settings : UIViewController
 
 @end

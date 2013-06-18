@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OffersPeople : UIViewController
+@interface OffersPeople : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

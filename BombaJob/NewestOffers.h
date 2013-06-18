@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewestOffers : UIViewController
+@interface NewestOffers : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
