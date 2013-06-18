@@ -23,6 +23,7 @@
                         <segue destination="TzC-Aa-4HY" kind="relationship" relationship="viewControllers" id="1tq-Cr-2cu"/>
                         <segue destination="6Eh-N6-HaA" kind="relationship" relationship="viewControllers" id="XxN-PO-L0i"/>
                         <segue destination="0tR-k9-qSV" kind="relationship" relationship="viewControllers" id="JMC-IY-i1w"/>
+                        <segue destination="BjP-xP-1SC" kind="relationship" relationship="viewControllers" id="97I-KC-IlV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -93,16 +94,16 @@
         <scene sceneID="k2j-NH-zCA">
             <objects>
                 <tableViewController id="fsG-Ka-bYo" customClass="NewestOffers" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yHt-kn-gYd">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="yHt-kn-gYd">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bBu-Hc-KLx">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="80" id="bBu-Hc-KLx" customClass="OfferCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -148,6 +149,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FvJ-uX-nDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1426" y="35"/>
+        </scene>
+        <!--About - За BombaJob.bg-->
+        <scene sceneID="D0p-UO-A5f">
+            <objects>
+                <viewController id="BjP-xP-1SC" customClass="About" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="epu-JN-8mq">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="За BombaJob.bg" image="tab-about.png" id="hbf-SX-W41"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MCo-dQ-1RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1518" y="-744"/>
         </scene>
         <!--Settings - Настройки-->
         <scene sceneID="bsZ-kU-IvB">
@@ -219,6 +235,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tab-about.png" width="23" height="22"/>
         <image name="tab-newest.png" width="22" height="22"/>
         <image name="tab-offers.png" width="26" height="28"/>
         <image name="tab-people.png" width="28" height="26"/>
@@ -227,11 +244,17 @@
         <image name="tab-settings.png" width="20" height="28"/>
     </resources>
     <classes>
+        <class className="About" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/About.h"/>
+        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
         <class className="NewestOffers" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NewestOffers.h"/>
+        </class>
+        <class className="OfferCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OfferCell.h"/>
         </class>
         <class className="OffersCompanies" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OffersCompanies.h"/>
