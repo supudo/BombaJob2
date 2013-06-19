@@ -67,4 +67,17 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(bSettings);
 	return txt;
 }
 
+- (NSString *)getOfferDate:(NSDate *)offerDate {
+	NSString *dtString = @"";
+	NSDateFormatter *df = [[NSDateFormatter alloc] init];
+	[df setDateFormat:@"dd"];
+	dtString = [df stringFromDate:offerDate];
+	[df setDateFormat:@"m"];
+	NSString *monthLabel = [NSString stringWithFormat:@"Months_Short_%@", [df stringFromDate:offerDate]];
+	dtString = [NSString stringWithFormat:@"%@ %@", dtString, NSLocalizedString(monthLabel, monthLabel)];
+	[df setDateFormat:@"yyyy"];
+	dtString = [NSString stringWithFormat:@"%@ %@", dtString, [df stringFromDate:offerDate]];
+	return dtString;
+}
+
 @end

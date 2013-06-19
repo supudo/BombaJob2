@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "dbJobOffer.h"
 
-@interface OfferDetails : UIViewController
+@interface OfferDetails : UIViewController {
+    dbJobOffer *currentOffer;
+}
+
+@property (strong) dbJobOffer *currentOffer;
 
 @end

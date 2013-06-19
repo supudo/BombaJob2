@@ -14,6 +14,8 @@
 
 @implementation OfferDetails
 
+@synthesize currentOffer;
+
 #pragma mark -
 #pragma mark System
 

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebService.h"
 
-@interface OffersCompanies : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface OffersCompanies : UITableViewController <WebServiceDelegate, UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
 
 @end

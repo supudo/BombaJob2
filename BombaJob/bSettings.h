@@ -21,6 +21,7 @@
 - (BOOL)connectedToInternet;
 - (BOOL)validEmail:(NSString *)email sitrictly:(BOOL)stricterFilter;
 - (NSString *)stripHTMLtags:(NSString *)txt;
+- (NSString *)getOfferDate:(NSDate *)offerDate;
 
 + (bSettings *)sharedbSettings;
 
